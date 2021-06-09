@@ -2,7 +2,7 @@
 /**
  * Plugin Name:  Easy Login Logout
  * Plugin URI:   https://wordpress.org/plugins
- * Description:  Quickly customize your menus
+ * Description:  Easy Login Logout Menus is the perfect plugin for websites which have login user or logout user.
  * Version:      1.0.0
  * Author:       Ashraful Sarkar
  * Author URI:   https://ashrafulsarkar.com
