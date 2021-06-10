@@ -34,5 +34,14 @@ Installation procedure:
 4. Go to the wp-admin > Appearance > Menus and edit your menu.
 
 == Frequently Asked Questions ==
-Where can I report bugs or contribute to the project?
-Bugs can be reported either in our support forum or preferably on the <a href="https://github.com/ashrafulsarkar/easy-login-logout" target="_blank">easy login logout</a> GitHub repository.
+= How do I setup this plugin? =
+* To setup the plugin, go to wp-admin > appearance > menu
+* Once a menu item has been added to the menu, expand the menu item and select which user group everyone (default option), login user, logout user can see the menu item
+= Do we collect user information through this plugin?
+* No, we do not collect any data through this plugin.
+= Where can I report bugs or contribute to the project? = 
+* Bugs can be reported either in our support forum or preferably on the <a href="https://github.com/ashrafulsarkar/easy-login-logout" target="_blank">easy login logout</a> GitHub repository.
+
+== Changelog ==
+= v1.0.0 =
+* Initial Release
