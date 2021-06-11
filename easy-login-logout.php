@@ -128,9 +128,9 @@ class EasyLoginLogout {
 			<p class="field-custom_menu_meta description-wide" style="margin: 5px 0;">
 				<span class="description"><?php _e("Who can see this link?", 'custom-menu-meta'); ?></span>
 				<br />
-				<select name="easy_nav_item_options[<?php echo $item->ID; ?>]" id="jp_nav_item_options-which_users_<?php echo $item->ID; ?>" class="widefat">
+				<select name="easy_nav_item_options[<?php esc_html_e($item->ID); ?>]" id="jp_nav_item_options-which_users_<?php esc_html_e($item->ID); ?>" class="widefat">
 					<?php foreach ($which_users_options as $option => $label) : ?>
-						<option value="<?php echo $option; ?>" <?php selected($option, $custom_menu_meta); ?>>
+						<option value="<?php esc_attr_e($option); ?>" <?php selected($option, esc_html($custom_menu_meta)); ?>>
 							<?php echo esc_html($label); ?>
 						</option>
 					<?php endforeach; ?>
