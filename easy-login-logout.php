@@ -142,7 +142,7 @@ class EasyLoginLogout {
 		/**
 		 * Redicect Url
 		 */
-		$elems_re = array('56', '57', '58');
+		$elems_re = array('56', '57');
 		if (isset($item->object, $item->object_id) && 'easy-llout' == $item->object && in_array($item->object_id, $elems_re)) {
 			$redirect_types = array(
 				'current' => __('Current Page', 'easy-llout'),
@@ -157,18 +157,18 @@ class EasyLoginLogout {
 	
 				<span class="description"><?php _e("Where should users be taken afterwards?", 'custom-menu-meta'); ?></span>
 				<br />
-				<select name="easy_redirect_meta_options[<?php echo $item->ID; ?>]" id="jp_redirect_meta_users_<?php echo $item->ID; ?>" class="widefat">
+				<select name="easy_redirect_meta_options[<?php esc_html_e($item->ID); ?>]" id="easy_redirect_meta_users_<?php esc_html_e($item->ID); ?>" class="widefat">
 					<?php foreach ($redirect_types as $re_option => $label) : ?>
-						<option value="<?php echo $re_option; ?>" <?php selected($re_option, $custom_redirect_meta); ?>>
+						<option value="<?php esc_attr_e($re_option); ?>" <?php selected($re_option, esc_html($custom_redirect_meta)); ?>>
 							<?php echo esc_html($label); ?>
 						</option>
 					<?php endforeach; ?>
 				</select>
 			</p>
 			<p class="nav_item_options-redirect_url description  description-wide" style="display: <?php if ($custom_redirect_meta == 'custom') { esc_html_e('block'); } else { esc_html_e('none'); } ?> ;">
-				<label for="jp_nav_item_options-redirect_url-<?php echo $item->ID; ?>">
+				<label for="easy_nav_item_options-redirect_url-<?php esc_html_e($item->ID); ?>">
 					<?php _e('Enter a url user should be redirected to', 'easy-llout'); ?><br />
-					<input type="text" name="easy_redirect_url_options[<?php echo $item->ID; ?>]" id="jp_nav_item_options-redirect_url-<?php echo $item->ID; ?>" value="<?php esc_attr_e($custom_redirect_url); ?>" class="widefat  code" />
+					<input type="text" name="easy_redirect_url_options[<?php esc_html_e($item->ID); ?>]" id="easy_nav_item_options-redirect_url-<?php esc_html_e($item->ID); ?>" value="<?php esc_attr_e($custom_redirect_url); ?>" class="widefat  code" />
 				</label>
 			</p>
 	<?php
