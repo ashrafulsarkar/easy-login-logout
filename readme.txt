@@ -1,10 +1,10 @@
 === Easy Login Logout ===
 Contributors: ashrafulsarkar
 Tags: login, logout, menu, nav menu, register menu,
-Requires at least: 5.7
-Tested up to: 5.7.2
+Requires at least: 4.6
+Tested up to: 5.8
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: NU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,8 +29,8 @@ The plugin gives you more control over your nav menu by allowing you to apply vi
 Installation procedure:
 
 1. Deactivate plugin if you have the previous version installed.
-2. Extract \"easy-login-logout.zip\" archive content to the \"/wp-content/plugins/easy-login-logout\" directory.
-3. Activate \"Easy Login Logout\" plugin via \'Plugins\' menu in WordPress admin menu.
+2. Extract "easy-login-logout.zip" archive content to the "wp-content/plugins/easy-login-logout" directory.
+3. Activate "Easy Login Logout" plugin via 'Plugins' menu in WordPress admin menu.
 4. Go to the wp-admin > Appearance > Menus and edit your menu.
 
 == Frequently Asked Questions ==
@@ -43,5 +43,7 @@ Installation procedure:
 * Bugs can be reported either in our support forum or preferably on the <a href="https://github.com/ashrafulsarkar/easy-login-logout" target="_blank">easy login logout</a> GitHub repository.
 
 == Changelog ==
-= v1.0.0 =
+= 1.0.1 - 2021-07-21 =
+* Declared compatibility for WordPress 5.8
+= 1.0.0 - 2021-06-10 =
 * Initial Release

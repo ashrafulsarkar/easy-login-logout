@@ -3,7 +3,7 @@
  * Plugin Name:  Easy Login Logout
  * Plugin URI:   https://github.com/ashrafulsarkar/easy-login-logout
  * Description:  Easy Login Logout Menus is the perfect plugin for websites which have login user or logout user.
- * Version:      1.0.0
+ * Version:      1.0.1
  * Author:       Ashraful Sarkar
  * Author URI:   https://ashrafulsarkar.com
  * License:      GNU General Public License v2 or later
@@ -126,7 +126,7 @@ class EasyLoginLogout {
 			$custom_menu_meta = get_post_meta($item_id, '_custom_menu_meta', true);
 		?>
 			<p class="field-custom_menu_meta description-wide" style="margin: 5px 0;">
-				<span class="description"><?php _e("Who can see this link?", 'custom-menu-meta'); ?></span>
+				<span class="description"><?php _e("Who can see this link?", 'easy-llout'); ?></span>
 				<br />
 				<select name="easy_nav_item_options[<?php esc_html_e($item->ID); ?>]" id="jp_nav_item_options-which_users_<?php esc_html_e($item->ID); ?>" class="widefat">
 					<?php foreach ($which_users_options as $option => $label) : ?>
@@ -155,7 +155,7 @@ class EasyLoginLogout {
 		?>
 			<p class="nav_item_options-redirect_type description-wide" style="margin: 5px 0;">
 	
-				<span class="description"><?php _e("Where should users be taken afterwards?", 'custom-menu-meta'); ?></span>
+				<span class="description"><?php _e("Where should users be taken afterwards?", 'easy-llout'); ?></span>
 				<br />
 				<select name="easy_redirect_meta_options[<?php esc_html_e($item->ID); ?>]" id="easy_redirect_meta_users_<?php esc_html_e($item->ID); ?>" class="widefat">
 					<?php foreach ($redirect_types as $re_option => $label) : ?>
