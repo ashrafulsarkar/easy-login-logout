@@ -1,9 +1,9 @@
 # Plugin Name: Easy Login Logout
 
-##Description
+## Description
 Easy Login Logout Menus is the perfect plugin for websites which have login user or logout user. The plugin gives you more control over your nav menu by allowing you to apply visibility controls to menu items e.g who can see each menu item (everyone, logout user, login user).
 
-##This Plugin Feature
+## This Plugin Feature
 * Control Login Logout Menu
 * Display menu items to everyone
 * Display menu items to only login user
