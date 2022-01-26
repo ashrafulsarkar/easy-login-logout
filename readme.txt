@@ -1,6 +1,6 @@
 === Easy Login Logout ===
 Contributors: ashrafulsarkar
-Tags: login, logout, menu, nav menu, register menu,
+Tags: login, logout, menu, nav menu, register menu, login menu, logout menu, profile menu, easy login logout,
 Requires at least: 4.6
 Tested up to: 5.8
 Requires PHP: 7.0
@@ -15,6 +15,7 @@ The plugin gives you more control over your nav menu by allowing you to apply vi
 
 <b>This Plugin Feature</b>
 <ul>
+    <li>Control Login Logout Menu</li>
     <li>Display menu items to everyone</li>
     <li>Display menu items to only login user</li>
     <li>Display menu items to only logout user</li>
