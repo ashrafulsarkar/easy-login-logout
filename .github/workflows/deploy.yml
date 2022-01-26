@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
       - name: WordPress plugin deploy
         id: deploy
-        uses: 10up/action-wordpress-plugin-deploy@2.0.0
+        uses: 10up/action-wordpress-plugin-deploy@main
         with:
           generate-zip: false
         env:
