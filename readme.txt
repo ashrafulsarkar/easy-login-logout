@@ -1,6 +1,6 @@
 === Easy Login Logout ===
 Contributors: ashrafulsarkar
-Tags: login, logout, menu, nav menu, register menu, login menu, logout menu, profile menu, easy login logout,
+Tags: login, logout, menu, nav menu, register menu, login menu, logout menu, profile menu, easy login logout, nav menu items, wp nav menus, user menu, only logged in user, navigation menus, menus
 Donate link: https://www.buymeacoffee.com/ashrafulsarkar
 Requires at least: 4.6
 Tested up to: 6.0
