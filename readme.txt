@@ -3,7 +3,7 @@ Contributors: ashrafulsarkar
 Tags: login, logout, menu, nav menu, register menu, login menu, logout menu, profile menu, easy login logout,
 Donate link: https://www.buymeacoffee.com/ashrafulsarkar
 Requires at least: 4.6
-Tested up to: 5.9
+Tested up to: 6.0
 Requires PHP: 7.0
 Stable tag: 1.0.1
 License: NU General Public License v2 or later
